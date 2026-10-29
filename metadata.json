@@ -1,0 +1,6 @@
+{
+  "name": "Samajh - AI Document Explainer",
+  "description": "Understand Pakistani prescriptions, utility bills, legal notices, bank letters, and government forms in simple Urdu, Roman Urdu, or English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

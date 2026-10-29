@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --primary-green: #0B6B4F;
+  --primary-dark: #074B37;
+  --primary-light: #EBF7F2;
+  --primary-accent: #158F6B;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F8FAF9;
+  color: #1F2937;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Urdu Typography class with Nastaliq styling and graceful fallbacks */
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', 'Segoe UI', Tahoma, Arial, serif;
+  line-height: 2.2;
+  word-spacing: 0.12em;
+}
+
+/* Noto Sans Arabic for crisp headers / badges in Urdu */
+.font-urdu-clean {
+  font-family: 'Noto Sans Arabic', 'Noto Nastaliq Urdu', 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.8;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
